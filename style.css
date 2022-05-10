@@ -1,0 +1,73 @@
+body {
+    background-color: #e1ffc4;
+    font-family: fantasy;
+}
+
+.pizzas {
+    /* border : 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    width: auto; */
+    display: block;
+
+}
+.small_pizza {
+    background-color: yellowgreen;
+    border : 1px solid grey;
+    margin: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    width: auto;
+    font-style: fantasy;
+}
+.medium_Pizza {
+    background-color: yellowgreen;
+    border : 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    width: auto;
+    font-style: fantasy;
+
+}
+.large_Pizza {
+    background-color: yellowgreen;
+    border : 1px solid grey;
+    margin: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    width: auto;
+    font-style: fantasy;
+
+}
+@media (min-width:768px) {
+    .pizzas { 
+    
+        display: flex;
+    
+    }
+    body{
+        background-color:brown;
+    }
+}
+.footer {
+    display: flex;
+    background-color: yellowgreen;
+    border: 1px solid grey;
+    margin: 1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    width: auto;
+    height: 121.11px;
+    width: auto;
+    font-style: italic;
+
+}
+.Address{
+    padding-left: 25em;
+}
